@@ -1,3 +1,4 @@
+<h1>SmartEdu</h1>
 <h2>Team Members</h2>
 <ul>
   <li>Kaushik Ghorai</li>
