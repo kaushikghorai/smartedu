@@ -1,0 +1,119 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #4CAF50; /* Green background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #dcdcdc; /* Light gray on hover */
+}
+
+/* Section styles */
+#mainContainer {
+    margin: 20px; /* Add units */
+    padding: 0 20%; /* Keep padding as it is */
+}
+
+#searchbar {
+    text-align: right;
+}
+
+/* Button styles */
+#tab1, #tab2 {
+    padding: 10px 20px; /* Fixed padding */
+    background-color: #4CAF50; /* Example background color */
+    color: white;              /* Example text color */
+    border: none;              /* No border */
+    border-radius: 4px;       /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor */
+    font-size: 16px;          /* Font size */
+}
+
+
+#tab1:hover, #tab2:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#course1, #course2 {
+    margin: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #00ffff;
+    padding: 2%;
+}
+
+#course1{
+    float: left;
+}
+
+#course2{
+    float: right;
+}
+
+#course1:hover, #course2:hover{
+    transform: scale(1.01);
+    background-color: #ccffff;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333; /* Dark background for footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1rem;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    section {
+        padding: 15px;
+        margin: 10px;
+    }
+    #mainContainer {
+        margin: 2px; /* Add units */
+        padding: 0 1%; /* Keep padding as it is */
+    }
+}
